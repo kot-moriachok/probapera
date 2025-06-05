@@ -40,7 +40,7 @@ while True:
     if alarm_hour == current_hour:
         if alarm_min == current_min:
             if alarm_sec == current_sec:
-                print("Подъем!")
+                print("Рота Подъем!")
                 playsound('melodia.mp3') # Путь до аудиозаписи
                 break
 
