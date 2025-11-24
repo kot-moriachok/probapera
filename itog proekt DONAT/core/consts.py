@@ -1,0 +1,18 @@
+from decimal import Decimal
+
+
+DECIMAL_PLACE: int = 2
+
+LENGTH_USER_CHARFIELD: int = 150
+
+LENGTH_USER_EMAILFIELD: int = 254
+
+MAX_DIGITS_IN_DECIMAL: int = 15
+
+MAX_LENGHT_TITLE: int = 256
+
+MAX_LENGTH_TEXT: int = 30_000
+
+MAX_PAYMENT: int = 1_000_000_000_000
+
+MIN_VALUE_VALIDATOR: float = Decimal('0.01')
