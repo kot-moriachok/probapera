@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Базовый шаблон</title>
+    </head>
+    <body>
+        {% block content %}
+            <form action="/submit" method='POST'>
+               <label for='name'>Запись:</label>
+               <input type="text" id="key" name=key><br>
+               <button type="submit">Добавить</button>
+            </form>
+        {% endblock %}
+    </body>
+</html>
